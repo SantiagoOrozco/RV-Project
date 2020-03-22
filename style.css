@@ -33,6 +33,10 @@ html, body {
     text-decoration: underline grey;
     color: white;
 }
+.nav:hover a {
+    background-color: lightgrey;
+    transition: .65s;
+}
 
 
 .about {
