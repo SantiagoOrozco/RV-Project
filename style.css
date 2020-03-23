@@ -185,6 +185,10 @@ h2 {
     margin-bottom: 30px;
 } 
 
+#rh1 {
+    text-decoration: underline;
+}
+
 .rborder {
     border: 1px solid black;
     width: 20%;
@@ -193,17 +197,12 @@ h2 {
     padding: 10px 30px;
 }
 
-#rh1 {
-    text-decoration: underline;
-}
-
 input {
     display: block;
     margin-top: 15px;
 }
 
-button {
+.btn2 {
     display: block;
     margin-top: 20px;
-    color: white;
 }
