@@ -22,10 +22,10 @@ html, body {
 .nav {
     display: flex;
     justify-content: space-evenly;
-    width: 30%;
+    width: 25%;
     list-style: none;
     margin-bottom: 40px;
-    margin-left: 800px;
+    margin-left: 955px;
 }
 .nav a {
     border: 1px solid white;
@@ -75,9 +75,10 @@ html, body {
     margin-bottom: 50px;
 }
 
-.mainpage h2 {
+h2 {
     text-decoration: underline;
 }
+
 .choices1 {
     display: flex;
     justify-content: space-evenly;
@@ -175,4 +176,34 @@ html, body {
     height: 95%;
     width: 100%;
     background-size: cover;
+}
+
+/* Regristration styles */
+#header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+} 
+
+.rborder {
+    border: 1px solid black;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 60px;
+    padding: 10px 30px;
+}
+
+#rh1 {
+    text-decoration: underline;
+}
+
+input {
+    display: block;
+    margin-top: 15px;
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+    color: white;
 }
