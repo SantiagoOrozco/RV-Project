@@ -28,7 +28,7 @@ function updateRoom(){
 
     document.getElementById("box").innerHTML = ("")
     let compList;
-    let list = document.createElement("ul")
+    let list = document.createElement("ol")
     for(let x=0; x<room.length; x++){
         let keys = Object.keys(room[x])
         for(let i=0; i<keys.length; i++){
